@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/mystyle.css">
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <title>Bootstrap</title>
+</head>
+
+<body class="bg ">
+    <div class="container">
+        <div class="text-light bg-warning card w-40 mt-5 mb-5 text-center ">
+            <h1 class="font-italic ">Ramen Restaurants</h1>
+            <p class="font-italic h4">Here is the World's Top Ramen Restaurants</p>
+        </div>
+        <div class="row">
+            <div class="col-12 mx-auto">
+                <div class="card card-body  mt-5  ">
+                    <h3 class="text-center mb-3">The World's Top Ramen Restaurants </h3>
+                    <input type="text" placeholder="Search the Ramen Restaurant" id="search-box" class="form-control">
+                    <table class="table table-light table-hover mt-4">
+                        <thead>
+                            <tr>
+                                <th>Hotel</th>
+                                <th>Variety</th>
+                                <th>Country</th>
+                                <th>Quality(Stars)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="list">
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
